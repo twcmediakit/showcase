@@ -1,0 +1,12 @@
+
+http://example.ksuwdc.com/archive.html
+http://example.ksuwdc.com/atom.xml
+http://example.ksuwdc.com/categories.html
+http://example.ksuwdc.com/index.html
+http://example.ksuwdc.com/pages.html
+http://example.ksuwdc.com/rss.xml
+http://example.ksuwdc.com/sitemap.txt
+http://example.ksuwdc.com/tags.html
+
+http://example.ksuwdc.com/music/2013/09/15/every-time-i-roll-the-dice
+http://example.ksuwdc.com/lessons/2011/12/29/jekyll-introduction
