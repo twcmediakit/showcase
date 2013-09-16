@@ -1,0 +1,31 @@
+permalink: /:categories/:year/:month/:day/:title 
+exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+pygments: true
+
+title : KSUWDC
+tagline: KSU Web Design Certificate
+author :
+  name : Kyle Kinnaman
+  email : kyle.kinnaman@ksuwdc.com
+  github : ksuwdc
+production_url : http://example.ksuwdc.com
+JB :
+  version : 0.3.0
+  BASE_PATH : /blog
+  ASSET_PATH : false
+
+  archive_path: /archive.html
+  categories_path : /categories.html
+  tags_path : /tags.html
+  atom_path : /atom.xml
+  rss_path : /rss.xml
+
+  comments :
+    provider: false
+#    provider : disqus
+#    disqus :
+#      short_name : jekyllbootstrap
+  analytics :
+    provider : google 
+    google : 
+        tracking_id : 'UA-123-12'
