@@ -10,14 +10,14 @@ layout: page
             <div class="dropdown">
                 <div class="dropmenu">
                     <p class="selected">Selection</p>
-                    <i class="font-icon-arrow-simple-down"></i>
                 </div>
                 <div class="dropmenu-active">
                     <ul class="option-set" data-option-key="filter">
-                        <li><a href="#filter" data-option-value=".design">Television</a></li>
-                        <li><a href="#filter" data-option-value=".digital">Web</a></li>
-                        <li><a href="#filter" data-option-value=".icon">Mobile</a></li>
-                        <li><a href="#filter" data-option-value=".video">Every Screen</a></li>
+                        <li><a href="#filter" data-option-value=".television">Television</a></li>
+                        <li><a href="#filter" data-option-value=".desktop">Desktop</a></li>
+                        <li><a href="#filter" data-option-value=".tablet">Tablet</a></li>
+                        <li><a href="#filter" data-option-value=".mobile">Mobile</a></li>
+                        <li><a href="#filter" data-option-value=".all">All screens</a></li>
                     </ul>
                 </div>
             </div>
@@ -32,7 +32,7 @@ layout: page
         <div id="portfolio-projects">
           <ul id="projects">
             {% for post in site.posts %}
-              <li class="item-project span4 {{ page.tags }}">
+              <li class="item-project span4 {{ post.classes }}">
                 <h5>
                   <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
                   <span class="arrow-port"></span>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+ 
+ <title>TWC Showcase</title>
+ <link href="http://www.twcmediakit.com/showcase/" rel="self"/>
+ <link href="http://www.twcmediakit.com/showcase"/>
+ <updated>2013-09-17T07:21:13-04:00</updated>
+ <id>http://www.twcmediakit.com/showcase</id>
+ <author>
+   <name>Kyle Kinnaman</name>
+   <email>kyle.kinnaman@ksuwdc.com</email>
+ </author>
+
+ 
+ <entry>
+   <title>Sheraton expandable</title>
+   <link href="http://www.twcmediakit.com/showcase/2013/09/17/sheraton"/>
+   <updated>2013-09-17T00:00:00-04:00</updated>
+   <id>http://www.twcmediakit.com/showcase/2013/09/17/sheraton</id>
+   <content type="html">&lt;video src='http://showcaseweather.com/wp-content/sh5vp_cache/20130917/69c9bd9d9bf988bb27505eae1815475639ac47dd/Sheraton_iPhone_Video_20120629.mp4' controls='true' /&gt;</content>
+ </entry>
+ 
+ <entry>
+   <title>Goodyear iPad Adaptor</title>
+   <link href="http://www.twcmediakit.com/showcase/2013/09/16/goodyear-adaptor"/>
+   <updated>2013-09-16T00:00:00-04:00</updated>
+   <id>http://www.twcmediakit.com/showcase/2013/09/16/goodyear-adaptor</id>
+   <content type="html">&lt;video src='http://showcaseweather.com/wp-content/sh5vp_cache/20130917/859f78dedf04036674162aaa523731accc1cbfc0/GoodYear_RMBanner_20121005_9.mp4' controls='true' /&gt;</content>
+ </entry>
+ 
+ 
+</feed>
