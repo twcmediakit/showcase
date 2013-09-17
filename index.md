@@ -32,8 +32,21 @@ When you don't need the samples anymore just delete the `_posts/core-samples` fo
 
 Here's a sample "posts list".
 
-<ul class="posts">
+<ul id="projects">
   {% for post in site.posts %}
+    <li class="item-project span4 {{ page.tags }}">
+      <h5>
+        <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
+        <span class="arrow-port"></span>
+      </h5>      
+      <a class="hover-wrap fancybox" href="{{ post.largeImg }}" data-fancybox-group="gallery" title="{{ page.tagline}}">
+        <img src="{{ post.smallImg }}" alt="{{ post.smallImgTitle }}" />
+        <div class="overlay"></div>
+        <i class="font-icon-plus"></i>
+      </a>
+    </li>
+
+
     <li><span>{{ post.date | date_to_string }}</span> &raquo; <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
   {% endfor %}
 </ul>
