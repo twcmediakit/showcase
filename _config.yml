@@ -13,18 +13,13 @@ JB :
   version : 0.3.0
   BASE_PATH : http://twcmediakit.github.io/showcase
   ASSET_PATH : http://www.twcmediakit.com/
-
   archive_path: /archive.html
   categories_path : /categories.html
   tags_path : /tags.html
   atom_path : /atom.xml
   rss_path : /rss.xml
-
   comments :
     provider: false
-#    provider : disqus
-#    disqus :
-#      short_name : jekyllbootstrap
   analytics :
     provider : google 
     google : 

@@ -33,11 +33,15 @@ layout: page
           <ul id="projects">
             {% for post in site.posts %}
               <li class="item-project span4 {{ post.classes }}">
-                <h5>
-                  <a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a>
-                  <span class="arrow-port"></span>
-                </h5>      
+                <a href="{{ BASE_PATH }}{{ post.url }}">
+                  <h5>
+                    {{ post.title }}
+                    <span class="arrow-port"></span>
+                  </h5>      
+<!-- 
+                </a>
                 <a class="hover-wrap fancybox" href="{{ post.largeImg }}" data-fancybox-group="gallery" title="{{ page.tagline}}">
+ --> 
                   <img src="{{ post.smallImg }}" />
                   <div class="overlay"></div>
                 </a>
