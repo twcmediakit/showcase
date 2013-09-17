@@ -2,16 +2,16 @@ permalink: /:categories/:year/:month/:day/:title
 exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
-title : TWC Showcase
-tagline: The Weather Channel - Creative Services Showcase
+title : KSUWDC
+tagline: KSU Web Design Certificate
 author :
   name : Kyle Kinnaman
   email : kyle.kinnaman@ksuwdc.com
-  github : twcmediakit/showcase
-production_url : http://twcmediakit.com
+  github : ksuwdc
+production_url : http://example.ksuwdc.com
 JB :
   version : 0.3.0
-  BASE_PATH : /showcase
+  BASE_PATH : /blog
   ASSET_PATH : false
 
   archive_path: /archive.html
