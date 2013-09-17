@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
 <channel>
-        <title>KSUWDC</title>
-        <description>KSUWDC - Kyle Kinnaman</description>
-        <link>http://example.ksuwdc.com</link>
-        <link>http://example.ksuwdc.com</link>
-        <lastBuildDate>2013-09-16T23:19:00-04:00</lastBuildDate>
-        <pubDate>2013-09-16T23:19:00-04:00</pubDate>
+        <title>TWC Showcase</title>
+        <description>TWC Showcase - Kyle Kinnaman</description>
+        <link>http://www.twcmediakit.com/showcase</link>
+        <link>http://www.twcmediakit.com/showcase</link>
+        <lastBuildDate>2013-09-16T23:29:30-04:00</lastBuildDate>
+        <pubDate>2013-09-16T23:29:30-04:00</pubDate>
         <ttl>1800</ttl>
 
 
         <item>
                 <title>Every Time I Roll The Dice</title>
-                <description>&lt;iframe class='youtube' allowfullscreen='true' src='//www.youtube.com/embed/q7tFeVLNH5E' frameborder='0'&gt; &lt;/iframe&gt;</description>
-                <link>http://example.ksuwdc.com/music/2013/09/15/every-time-i-roll-the-dice</link>
-                <guid>http://example.ksuwdc.com/music/2013/09/15/every-time-i-roll-the-dice</guid>
+                <description>&lt;iframe src='//www.youtube.com/embed/q7tFeVLNH5E' frameborder='0' allowfullscreen='true' class='youtube'&gt; &lt;/iframe&gt;</description>
+                <link>http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice</link>
+                <guid>http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice</guid>
                 <pubDate>2013-09-15T00:00:00-04:00</pubDate>
         </item>
 

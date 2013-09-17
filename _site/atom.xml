@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
  
- <title>KSUWDC</title>
- <link href="http://example.ksuwdc.com/" rel="self"/>
- <link href="http://example.ksuwdc.com"/>
- <updated>2013-09-16T23:19:00-04:00</updated>
- <id>http://example.ksuwdc.com</id>
+ <title>TWC Showcase</title>
+ <link href="http://www.twcmediakit.com/showcase/" rel="self"/>
+ <link href="http://www.twcmediakit.com/showcase"/>
+ <updated>2013-09-16T23:29:30-04:00</updated>
+ <id>http://www.twcmediakit.com/showcase</id>
  <author>
    <name>Kyle Kinnaman</name>
    <email>kyle.kinnaman@ksuwdc.com</email>
@@ -14,10 +14,10 @@
  
  <entry>
    <title>Every Time I Roll The Dice</title>
-   <link href="http://example.ksuwdc.com/music/2013/09/15/every-time-i-roll-the-dice"/>
+   <link href="http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice"/>
    <updated>2013-09-15T00:00:00-04:00</updated>
-   <id>http://example.ksuwdc.com/music/2013/09/15/every-time-i-roll-the-dice</id>
-   <content type="html">&lt;iframe class='youtube' allowfullscreen='true' src='//www.youtube.com/embed/q7tFeVLNH5E' frameborder='0'&gt; &lt;/iframe&gt;</content>
+   <id>http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice</id>
+   <content type="html">&lt;iframe src='//www.youtube.com/embed/q7tFeVLNH5E' frameborder='0' allowfullscreen='true' class='youtube'&gt; &lt;/iframe&gt;</content>
  </entry>
  
  
