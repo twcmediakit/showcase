@@ -11,7 +11,7 @@ author :
 production_url : http://www.twcmediakit.com/showcase
 JB :
   version : 0.3.0
-  BASE_PATH : /showcase
+  BASE_PATH : http://twcmediakit.github.io/showcase
   ASSET_PATH : http://www.twcmediakit.com/
 
   archive_path: /archive.html
