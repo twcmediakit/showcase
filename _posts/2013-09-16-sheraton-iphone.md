@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Every Time I Roll The Dice"
-tagline: "Delbert McClinton"
-description: "Austin City Limits, 1992"
-category: "music"
-tags: [blues,music,youtube,tutorial]
+title: 'Goodyear Adaptor'
+tagline: 'this is a tagline'
+tags: [design,adaptor,tablet]
+largeImg: 'http://showcaseweather.com/wp-content/uploads/GoodYear_RMBanner_20121005_7-600x400.png'
+smallImg: 'http://showcaseweather.com/wp-content/uploads/GoodYear_RMBanner_20121005_7-600x400.png'
+
 ---
 {% include JB/setup %}
 
-<iframe class="youtube" src="//www.youtube.com/embed/q7tFeVLNH5E" frameborder="0" allowfullscreen="true"> </iframe>
