@@ -11,7 +11,7 @@ author :
 production_url : http://example.ksuwdc.com
 JB :
   version : 0.3.0
-  BASE_PATH : /blog
+  BASE_PATH : /
   ASSET_PATH : false
 
   archive_path: /archive.html
