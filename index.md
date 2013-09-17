@@ -9,7 +9,7 @@ layout: page
         <div class="span12">
             <div class="dropdown">
                 <div class="dropmenu">
-                    <p class="selected">Selection</p>
+                    <p class="selected">Select a creative type:</p>
                 </div>
                 <div class="dropmenu-active">
                     <ul class="option-set" data-option-key="filter">
