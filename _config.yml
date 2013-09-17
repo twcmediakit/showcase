@@ -3,16 +3,16 @@ exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
 pygments: true
 
 title : TWC Showcase
-tagline: The Weather Channel - Creative Services Showcase
+tagline: The Weather Channel Showcase
 author :
   name : Kyle Kinnaman
   email : kyle.kinnaman@ksuwdc.com
   github : twcmediakit/showcase
-production_url : http://twcmediakit.com
+production_url : http://www.twcmediakit.com/showcase
 JB :
   version : 0.3.0
   BASE_PATH : /showcase
-  ASSET_PATH : false
+  ASSET_PATH : http://www.twcmediakit.com/
 
   archive_path: /archive.html
   categories_path : /categories.html
