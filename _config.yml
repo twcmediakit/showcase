@@ -11,8 +11,8 @@ author :
 production_url : http://example.ksuwdc.com
 JB :
   version : 0.3.0
-  BASE_PATH : /
-  ASSET_PATH : false
+  BASE_PATH : /showcase
+  ASSET_PATH : http://www.twcmediakit.com/
 
   archive_path: /archive.html
   categories_path : /categories.html
