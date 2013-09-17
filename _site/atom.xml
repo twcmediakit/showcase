@@ -4,7 +4,7 @@
  <title>TWC Showcase</title>
  <link href="http://www.twcmediakit.com/showcase/" rel="self"/>
  <link href="http://www.twcmediakit.com/showcase"/>
- <updated>2013-09-16T23:29:30-04:00</updated>
+ <updated>2013-09-16T23:36:20-04:00</updated>
  <id>http://www.twcmediakit.com/showcase</id>
  <author>
    <name>Kyle Kinnaman</name>
@@ -17,7 +17,7 @@
    <link href="http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice"/>
    <updated>2013-09-15T00:00:00-04:00</updated>
    <id>http://www.twcmediakit.com/showcase/music/2013/09/15/every-time-i-roll-the-dice</id>
-   <content type="html">&lt;iframe src='//www.youtube.com/embed/q7tFeVLNH5E' frameborder='0' allowfullscreen='true' class='youtube'&gt; &lt;/iframe&gt;</content>
+   <content type="html">&lt;iframe frameborder='0' class='youtube' allowfullscreen='true' src='//www.youtube.com/embed/q7tFeVLNH5E'&gt; &lt;/iframe&gt;</content>
  </entry>
  
  
