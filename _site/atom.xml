@@ -4,7 +4,11 @@
  <title>TWC Showcase</title>
  <link href="http://www.twcmediakit.com/showcase/" rel="self"/>
  <link href="http://www.twcmediakit.com/showcase"/>
+<<<<<<< HEAD
  <updated>2013-09-17T07:38:33-04:00</updated>
+=======
+ <updated>2013-09-17T07:43:38-04:00</updated>
+>>>>>>> master
  <id>http://www.twcmediakit.com/showcase</id>
  <author>
    <name>Kyle Kinnaman</name>
