@@ -40,7 +40,6 @@ layout: page
                 <a class="hover-wrap fancybox" href="{{ post.largeImg }}" data-fancybox-group="gallery" title="{{ page.tagline}}">
                   <img src="{{ post.smallImg }}" />
                   <div class="overlay"></div>
-                  <i class="font-icon-plus"></i>
                 </a>
               </li>
             {% endfor %}
