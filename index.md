@@ -4,7 +4,7 @@ layout: page
 {% include JB/setup %}
 
 <!-- Start Section Portfolio Filter -->
-<section id="portfolio-filter" class="container margin-50">
+<section id="portfolio-filter" class="container">
     <div class="row">
         <div class="span12">
             <div class="dropdown">
