@@ -1,36 +1,11 @@
 #content {
-  padding: 0 0 80px;
+	padding: 0 0 40px;
 }
 
-.item-project h5 {
-	top: 0px;
-	border: 1px solid hsla(220, 76%, 40%, 1);
+#title-page {
+	margin-bottom: 0;
 }
 
-.arrow-port {
-	border-top: 20px solid hsla(220, 76%, 40%, 1);
-}
-
-
-/*
-.span8 video {
-	width: 90%;
-	margin: 0 auto;
-}
-*/
-
-@media screen and (max-width: 48em) {
-	.row {
-		margin-left: -20px;
-	}
-}
-
-@media screen and (max-width: 20em) {
-	#title-page {
-//		margin: 120px 0 0;
-	}
-
-	.row {
-		margin-left: 0;
-	}
+#portfolio-filter {
+	margin: 20px 0;
 }
