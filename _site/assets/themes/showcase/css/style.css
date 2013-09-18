@@ -13,15 +13,18 @@
 
 
 <<<<<<< HEAD
-.span8 video {
-	width: 90%;
-	margin: 0 auto;
 =======
 /*
+>>>>>>> master
 .span8 video {
 	width: 90%;
 	margin: 0 auto;
 }
+<<<<<<< HEAD
+
+.row {
+	margin-left: -20px;
+=======
 */
 
 @media screen and (max-width: 48em) {
