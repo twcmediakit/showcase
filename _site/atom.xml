@@ -4,7 +4,11 @@
  <title>TWC Showcase</title>
  <link href="http://www.twcmediakit.com/showcase/" rel="self"/>
  <link href="http://www.twcmediakit.com/showcase"/>
+<<<<<<< HEAD
  <updated>2013-09-17T16:11:32-04:00</updated>
+=======
+ <updated>2013-09-17T17:21:03-04:00</updated>
+>>>>>>> master
  <id>http://www.twcmediakit.com/showcase</id>
  <author>
    <name>Kyle Kinnaman</name>
@@ -26,6 +30,17 @@
    <updated>2013-09-16T00:00:00-04:00</updated>
    <id>http://www.twcmediakit.com/showcase/2013/09/16/goodyear-adaptor</id>
    <content type="html">&lt;video controls='true' src='http://showcaseweather.com/wp-content/sh5vp_cache/20130917/859f78dedf04036674162aaa523731accc1cbfc0/GoodYear_RMBanner_20121005_9.mp4' /&gt;</content>
+<<<<<<< HEAD
+=======
+ </entry>
+ 
+ <entry>
+   <title>Sheraton expandable</title>
+   <link href="http://www.twcmediakit.com/showcase/2013/09/15/sheraton"/>
+   <updated>2013-09-15T00:00:00-04:00</updated>
+   <id>http://www.twcmediakit.com/showcase/2013/09/15/sheraton</id>
+   <content type="html">&lt;video controls='true' src='http://showcaseweather.com/wp-content/sh5vp_cache/20130917/69c9bd9d9bf988bb27505eae1815475639ac47dd/Sheraton_iPhone_Video_20120629.mp4' /&gt;</content>
+>>>>>>> master
  </entry>
  
  
