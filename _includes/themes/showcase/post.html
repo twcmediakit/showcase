@@ -6,8 +6,27 @@
   </div>
   <div class="row">
     <div class="span8">
-      {{ content }}
-      <hr>
+      <ul class="carousel">
+        {% if page.video %}
+        <li class="carousel_item visible">
+          <video class="carousel_video" src="{{ page.video }}" poster="{{ page.img1 }}">
+        </li>
+        {% else %}
+        <li class="carousel_item visible">
+          <img class="carousel_img" src="{{ page.img1 }}">
+        </li>
+        {% endif %}
+        {% if page.img2 %}
+        <li class="carousel_item">
+          <img class="carousel_img" src="{{ page.img2 }}">
+        </li>
+        {% endif %}
+        {% if page.img3 %}
+        <li class="carousel_item">
+          <img class="carousel_img" src="{{ page.img3 }}">
+        </li>
+        {% endif %}
+      </ul>        
       <div class="pagination btn-group">
         {% if page.previous %}
           <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
@@ -20,7 +39,6 @@
           <a class="btn next disabled">Next &rarr;</a>
         {% endif %}
       </div>
-      <hr>
     </div>
     
     <div class="span4">
