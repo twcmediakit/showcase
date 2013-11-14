@@ -8,6 +8,5 @@ http://www.twcmediakit.com/showcase/rss.xml
 http://www.twcmediakit.com/showcase/sitemap.txt
 http://www.twcmediakit.com/showcase/tags.html
 
-http://www.twcmediakit.com/showcase/2013/09/17/sheraton
-http://www.twcmediakit.com/showcase/2013/09/16/goodyear-adaptor
-http://www.twcmediakit.com/showcase/2013/09/15/sheraton
+http://www.twcmediakit.com/showcase/2013/11/14/Bank-of-America
+http://www.twcmediakit.com/showcase/2013/11/13/Panera---You-ve-got-the-power
