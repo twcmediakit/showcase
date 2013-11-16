@@ -8,5 +8,4 @@ img2: http://i1.ytimg.com/vi/AoxAn4344Ek/maxresdefault.jpg
 img3: http://i1.ytimg.com/vi/opUhuE3-Gas/maxresdefault.jpg
 video: http://www.usabledesignworks.com/client/weather/13/11/panera.mp4
 ---
-
-Start your day with a mouthful of whole grain, all-natural egg, lean ham and tangy Vermont white cheddar, for real get up and go.
+<p>Start your day with a mouthful of whole grain, all-natural egg, lean ham and tangy Vermont white cheddar, for real get up and go.</p>
