@@ -4,8 +4,6 @@
 		nextVisible = 1,
 		runCarousel;
 
-	carousel_items[0].classList.add('visible');
-
 	function startCarousel() {
 		runCarousel = setInterval(function() {
 			moveCarousel(nextVisible);
@@ -38,5 +36,7 @@
 		clearInterval(runCarousel);
 	}
 
-	startCarousel();
+	if(carousel_items.length > 1) {
+		startCarousel();
+	}
 }());
