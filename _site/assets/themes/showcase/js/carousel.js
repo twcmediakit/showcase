@@ -20,16 +20,28 @@
 	}
 
 	if(carouselVideo) {
-		carouselVideo.addEventListener('play', function() {
-			stopCarousel();
-			carouselVideo.play();
-		});
+		var playVideo = document.getElementsByClassName('playVideo')[0];
+
+		if(playVideo){
+			playVideo.addEventListener('click', function() {
+				nextVisible = 0;
+				moveCarousel(nextVisible);
+				stopCarousel();
+				carouselVideo.play();
+				carouselVideo.controls = 'controls';
+				this.style.display = 'none';
+			});
+		}
 
 		carouselVideo.addEventListener('ended', function() {
+			nextVisible = 1;
 			moveCarousel(nextVisible);
 			startCarousel();
 			carouselVideo.load();
+			carouselVideo.controls = '';
+			playVideo.style.display = 'inline-block';
 		});
+
 	}
 
 	function stopCarousel() {

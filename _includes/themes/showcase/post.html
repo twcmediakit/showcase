@@ -9,7 +9,7 @@
       <ul class="carousel">
         {% if page.video %}
         <li class="carousel_item visible">
-          <video class="carousel_video" src="{{ page.video }}" poster="{{ page.img1 }}" controls>
+          <video class="carousel_video" src="{{ page.video }}" poster="{{ page.img1 }}">
         </li>
         {% else %}
         <li class="carousel_item visible">
@@ -27,21 +27,12 @@
         </li>
         {% endif %}
       </ul>        
-      <div class="pagination btn-group">
-        {% if page.previous %}
-          <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
-        {% else %}
-          <a class="btn disabled prev">&larr; Previous</a>
-        {% endif %}
-        {% if page.next %}
-          <a class="btn next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
-        {% else %}
-          <a class="btn next disabled">Next &rarr;</a>
-        {% endif %}
-      </div>
     </div>
-    
     <div class="span4">
+      {{ page.content }}
+      {% if page.video %}
+        <a class="btn playVideo">Watch the video</a>
+      {% endif %}
       {% unless page.tags == empty %}
         <section>
           <ul class="tag_box">More like this:
@@ -50,6 +41,22 @@
           </ul>
         </section>
       {% endunless %}         
+    </div>
+  </div>
+  <div class="row">
+    <div class="span12">
+      <div class="pagination btn-group">
+      {% if page.previous %}
+        <a class="btn prev" href="{{ BASE_PATH }}{{ page.previous.url }}" title="{{ page.previous.title }}">&larr; Previous</a>
+      {% else %}
+        <a class="btn disabled prev">&larr; Previous</a>
+      {% endif %}
+      {% if page.next %}
+        <a class="btn next" href="{{ BASE_PATH }}{{ page.next.url }}" title="{{ page.next.title }}">Next &rarr;</a>
+      {% else %}
+        <a class="btn next disabled">Next &rarr;</a>
+      {% endif %}
+      </div>
     </div>
   </div>
 </section>
