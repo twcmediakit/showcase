@@ -8,6 +8,7 @@ http://www.twcmediakit.com/showcase/rss.xml
 http://www.twcmediakit.com/showcase/sitemap.txt
 http://www.twcmediakit.com/showcase/tags.html
 
+http://www.twcmediakit.com/showcase/2013/11/18/corolla-brand-integrations
 http://www.twcmediakit.com/showcase/2013/11/16/Nissan-Pathfinder
 http://www.twcmediakit.com/showcase/2013/11/14/Panera-Youve-got-the-power
 http://www.twcmediakit.com/showcase/2013/11/14/Bank-of-America-Homeowners
