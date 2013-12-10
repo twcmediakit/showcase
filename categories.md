@@ -23,7 +23,7 @@ layout: page
     </div>
     <div class="row">
         <div class="span12">
-            <a class="block desktop_float_right desktop_margin_1_0 mobile_center mobile_margin_0_auto underline font_weight_500 blue" href="categories.html">Sort by medium</a>
+            <a class="block desktop_float_right desktop_margin_1_0 mobile_center mobile_margin_0_auto underline font_weight_500 blue" href="index.html">Sort by medium</a>
         </div>
     </div>
 </section>
