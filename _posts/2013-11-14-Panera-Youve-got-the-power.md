@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Panera - You've got the power
-tags: [Tablet, Mobile]
-classes: [tablet mobile all]
+categories: [Retail, Restaurant]
+classes: [tablet mobile retail restaurant all]
 img1: http://i1.ytimg.com/vi/27DIb_R0JHc/maxresdefault.jpg
 img2: http://i1.ytimg.com/vi/AoxAn4344Ek/maxresdefault.jpg
 img3: http://i1.ytimg.com/vi/opUhuE3-Gas/maxresdefault.jpg

@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Bank of America - Homeowners
-tags: [Tablet, Mobile]
-classes: [tablet mobile all]
+categories: [Financial]
+classes: [tablet mobile financial all]
 img1: http://s3images.coroflot.com/user_files/individual_files/original_120640_TsMfcmx550ODQd8DrtZXG67Ir.png
 img2: http://s3images.coroflot.com/user_files/individual_files/original_120640_zUfYbFxkwCbR_tAnrj8GZXJFc.png
 img3: http://s3images.coroflot.com/user_files/individual_files/original_120640_deTnIE4koof5Qvmq3K9SnufiB.png

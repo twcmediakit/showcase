@@ -1,8 +1,8 @@
 ---
 layout: post
 title: Nissan - Pathfinder
-tags: [Television]
-classes: [television all]
+categories: [Adaptor, Automotive]
+classes: [television adaptor automotive all]
 img1: http://usabledesignworks.com/client/weather/13/11/pathfinder.jpg
 img2: 
 img3: 
