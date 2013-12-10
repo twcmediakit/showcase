@@ -49,19 +49,17 @@ function sendMail(data) {
 	var text = '---\n\
 layout: post\n\
 title: ' + data[0][0] + '\n\
-tags: [' + data[0][1] + ']\n\
-classes: [' + (data[0][1]).toLowerCase().replace(/\W+/g, ' ') + ' all]\n\
+categories: [' + (data[0][2]) + ']\n\
+classes: [' + (data[0][1]).toLowerCase().replace(/\W+/g, ' ') + ' ' + (data[0][2]).toLowerCase().replace(/ /g,'_').replace(/\W+/g, ' ').replace(/\ \_/g, ' ') + ' all]\n\
 img1: ' + image1 + '\n\
 img2: ' + image2 + '\n\
 img3: ' + image3 + '\n\
 video: ' + video + '\n\
 ---\n\
-{% include JB/setup %}\n\
-\n\
 ' + data[0][7];
 
 	attachments.push({
-		'fileName': 	date.getFullYear() + '-' + month + '-' + day + '-' + titleString + '.md',
+		'fileName': 	date.getFullYear() + '-' + month + '-' + day + '-' + titleString.toLowerCase() + '.md',
 		'mimeType': 	'text/plain',
 		'content': 		text
 	});
@@ -84,10 +82,10 @@ video: ' + video + '\n\
 }
 
 function buildPost() {
-	var sheet = SpreadsheetApp.getActiveSheet(),
+	var attachments = '',
+		sheet = SpreadsheetApp.getActiveSheet(),
         startRow = SpreadsheetApp.getActiveSheet().getMaxRows(),
-		dataRange = sheet.getRange(startRow, 3, 1, 9),
+		dataRange = sheet.getRange(startRow, 3, 1, 10),
 		data = dataRange.getValues();
-	attachments = 'foo';
 	sendMail(data);
 }

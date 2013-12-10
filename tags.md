@@ -3,31 +3,26 @@ layout: page
 ---
 {% include JB/setup %}
 
-<section id="portfolio-filter" class="container">
+<!-- <section id="portfolio-filter" class="container">
     <div class="row">
         <div class="span12">
             <div class="dropdown">
                 <div class="dropmenu">
-                    <p class="selected">Creative Medium:</p>
+                    <p class="selected">Select a creative type:</p>
                 </div>
                 <div class="dropmenu-active">
                     <ul class="option-set" data-option-key="filter">
-                        <li><a href="#filter" data-option-value=".all">All media</a></li>
-                        <li><a href="#filter" data-option-value=".desktop">Desktop</a></li>
-                        <li><a href="#filter" data-option-value=".mobile">Mobile</a></li>
-                        <li><a href="#filter" data-option-value=".tablet">Tablet</a></li>
-                        <li><a href="#filter" data-option-value=".television">Television</a></li>
+                    {% for i in site.tags %} 
+                      <li><a href="#filter" data-option-value=".{{ site.tags[i] }}">{{ site.tags[i] }}</a></li>
+                    {% endfor %}
+                      <li><a href="#filter" data-option-value=".all">All tags</a></li>
                     </ul>
                 </div>
             </div>
         </div>
     </div>
-    <div class="row">
-        <div class="span12">
-            <a class="block desktop_float_right desktop_margin_1_0 mobile_center mobile_margin_0_auto underline font_weight_500 blue" href="categories.html">Sort by category</a>
-        </div>
-    </div>
-</section>
+</section> -->
+<!--
 <section id="portfolio" class="container">
     <div class="row">
         <div id="portfolio-projects">
@@ -47,5 +42,10 @@ layout: page
         </div>
     </div>
 </section>
+-->
 
 
+
+<!-- {% for i in site.categories %}  -->
+  <p>{{site.categories}}</p>
+<!-- {% endfor %} -->
