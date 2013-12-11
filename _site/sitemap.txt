@@ -1,8 +1,6 @@
 
 http://www.twcmediakit.com/showcase/archive.html
 http://www.twcmediakit.com/showcase/atom.xml
-http://www.twcmediakit.com/showcase/categories.bak.html
-http://www.twcmediakit.com/showcase/categories.html
 http://www.twcmediakit.com/showcase/categories.html
 http://www.twcmediakit.com/showcase/index.html
 http://www.twcmediakit.com/showcase/pages.html
@@ -10,7 +8,6 @@ http://www.twcmediakit.com/showcase/rss.xml
 http://www.twcmediakit.com/showcase/sitemap.txt
 http://www.twcmediakit.com/showcase/tags/tags.bak.html
 http://www.twcmediakit.com/showcase/tags/tags.html
-http://www.twcmediakit.com/showcase/tags.html
 http://www.twcmediakit.com/showcase/tags.html
 
 http://www.twcmediakit.com/showcase/automotive/brand%20integration/2013/11/18/corolla-brand-integrations
