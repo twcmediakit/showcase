@@ -47,4 +47,3 @@ layout: page
         </div>
     </div>
 </section>
-<script src="http://twcmediakit.github.io/showcase/assets/themes/showcase/js/categories.js"></script>
