@@ -86,7 +86,9 @@ ul, ol, dl, li, dt {
 		width: 90%;
 		border-radius: 4px;
 		float: left;
-	}
+	
+		margin-bottom: .5em;
+}
 
 	.mobile_center {
 		text-align: center;
