@@ -1,0 +1,99 @@
+#content {
+	padding: 0 0 3em;
+}
+
+#title-page {
+	margin-bottom: 0;
+}
+
+#portfolio-filter {
+	margin: 20px 0;
+}
+
+.dropmenu p {
+	color: #000;
+	color: hsl(220, 76%, 40%);
+}
+
+.open .selected, .dropmenu .selected:hover, .dropmenu .selected:focus, .dropmenu .selected:active{
+	color: white;
+}
+
+.carousel {
+	width: 100%;
+	height: 56.26%;
+}
+
+	.carousel_item {
+		display: none;
+	}
+
+	.carousel_item, .carousel_img, .carousel_video {
+		width: 100%;
+		background-size: cover;
+	}
+
+.visible, .carousel_video {
+	display: block;
+}
+
+.btn-group {
+	display: block;
+}
+
+.pagination {
+	margin: 20px 0 0;
+}
+
+.playVideo, .category_box {
+	float: right;
+	margin-bottom: 1em;
+}
+
+.category_box {
+	clear: both;
+	text-align: right;
+}
+
+ul, ol, dl, li, dt {
+	list-style: none;
+}
+
+.underline:hover, .underline:focus, .underline:active {
+	text-decoration: underline;
+}
+
+
+.font_weight_500 {
+	font-weight: 500;
+}
+
+.block {
+	display: block;
+}
+
+.blue {
+	color: #000000;
+	color: hsl(220, 76%, 40%);
+}
+
+@media only screen and (max-width: 768px) {
+	.mobile_center {
+		text-align: center;
+	}
+
+	.mobile_margin_0_auto {
+		width: 25%;
+		margin: 1.25em auto 0;
+	}
+}
+
+@media only screen and (min-width: 769px) {
+	.desktop_float_right {
+		float: right;
+	}
+
+	.desktop_margin_1_0 {
+		margin: 1.25em 0 0;
+	}
+}
