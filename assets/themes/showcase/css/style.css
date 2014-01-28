@@ -99,6 +99,8 @@ dt {
 	width: 20%;
 	background-color: hsla(0,100%,100%,.5);
 	color: hsla(0,100%,0%,.25);
+	font-size: 12em;
+	padding: 0.55em 0 0 .25em;
 }
 
 #nextBar {
@@ -127,13 +129,12 @@ dt {
 	border-left: 2px solid hsla(0,100%,0%,.15);
 }
 
-.btn_round {
+.btn_carousel{
+	display: block;
 	position: absolute;
-	margin: auto;
-	height: 100%;
-	top: 36%;
-	left: 18%;
-	font-size: 1000%;
+	margin: 75% 10% 0;
+	width: 80%;
+	font-size: 14em;
 }
 
 @media only screen and (max-width: 767px) {
